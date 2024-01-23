@@ -129,11 +129,5 @@ describe('Given FootballersMongoRepo...', () => {
     test('Then it should execute updater with and error...', async () => {
       expect(repo.update('', { name: 'luis' })).rejects.toThrow();
     });
-
-    //  For the Canarian  test('Then it should execute search with and error...', async () => {
-
-    //     expect(repo.search({ key: 'position', value: 's' })).rejects.toThrow();
-
-    //   });
   });
 });
